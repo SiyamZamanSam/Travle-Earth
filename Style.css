@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(/Resources/Images/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg);
+    background-size:720px 1524px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color:#D99485;
+}
+h1{
+    position: absolute;
+width: 529px;
+height: 113px;
+left: 63px;
+top: 10px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 86px;
+line-height: 113px;
+color: #FFFFFF;
+}
+h3{
+    position: absolute;
+width: 358px;
+height: 38px;
+left: 80px;
+top: 101px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 38px;
+color: #FFFFFF;
+}
+#Log-in{
+    position: absolute;
+width: 182px;
+height: 56px;
+left: 63px;
+top: 160px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+color: #FFFFFF;
+}
+#username{
+    position: absolute;
+width: 592px;
+height: 70px;
+left: 63px;
+top: 258px;
+background: #FFFFFF;
+opacity: 0.5;
+border:none;
+border-radius: 15px;
+}
+#Password{
+    position: absolute;
+width: 592px;
+height: 70px;
+left: 63px;
+top: 358px;
+background: #FFFFFF;
+opacity: 0.5;
+border:none;
+border-radius: 15px;
+}
+/* colors */
+input::-webkit-input-placeholder { 
+    color: #D99485; 
+ }
+ input:-moz-placeholder { 
+    color: #D99485; 
+ }
+ input::-moz-placeholder { 
+    color: #D99485; 
+ }
+ input:-ms-input-placeholder { 
+    color: #D99485; 
+ }
+ /* Text size */
+ input::-webkit-input-placeholder { 
+    font-size: 20px; 
+ }
+ input:-moz-placeholder { 
+    font-size: 20px; 
+ }
+ input::-moz-placeholder { 
+    font-size: 20px; 
+ }
+ input:-ms-input-placeholder { 
+    font-size: 20px; 
+ }
+ /* font */
+ input::-webkit-input-placeholder { 
+    font-family: 'Raleway', sans-serif; 
+ }
+ input:-moz-placeholder { 
+    font-family: 'Raleway', sans-serif; 
+ }
+ input::-moz-placeholder { 
+    font-family: 'Raleway', sans-serif; 
+ }
+ input:-ms-input-placeholder { 
+    font-family: 'Raleway', sans-serif; 
+ }
+ /* position */
+ input::-webkit-input-placeholder { 
+    position: absolute; 
+    left: 20px; 
+    top: 25px;
+ }
+ input:-moz-placeholder { 
+    position: absolute; 
+    left: 20px; 
+    top: 25px;
+ }
+ input::-moz-placeholder { 
+    position: absolute; 
+    left: 20px; 
+    top: 25px;
+ }
+ input:-ms-input-placeholder { 
+    position: absolute; 
+    left: 20px; 
+    top: 25px;
+ }
+ input{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    padding-left:20px;
+ }
+ #TANDC{
+position: absolute;
+width: 592px;
+height: 62px;
+left: 63px;
+top: 450px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+color: #000000;
+}
+#TC-radio{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 410px;
+top: 455px;
+}
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    margin-right: 10px;
+  }
+  
+  input[type="radio"]:before {
+    content: "";
+    width: 20px;
+    height: 16.5px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left:0;
+    border-radius: 0;
+  }
+  
+  input[type="radio"]:checked:before {
+    background-color: white;
+  }
+  button{
+    position: absolute;
+width: 280px;
+height: 70px;
+left: 63px;
+top: 500px;
+background: #733028;
+border:none;
+border-radius: 15px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+cursor:pointer;
+}
+#Others-login{
+    position: absolute;
+width: 167px;
+height: 38px;
+left: 63px;
+top: 600px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+color: #915A64;
+}
+#Facebook{
+position: absolute;
+width: 25px;
+height: 25px;
+left: 220px;
+top: 605px;
+opacity:50%;
+}
+#Google{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 260px;
+    top: 605px;
+    opacity:50%;
+    }
